@@ -1,6 +1,6 @@
 # OpenHours
 ## http://openhours.io
-### Public open source project hours tracker.
+### Public, Open Source Project Effort Tracker.
 
 Open Hours is a small project designed to answer the question:
 
@@ -13,6 +13,14 @@ sliced in various intesteresting ways).
 Ultimately we're looking to get some solid data that can be used as a first step
 in solving the problem of OSS Contributor and Maintainer burnout, and Securing
 the Open Source Supply Chain (See below for further discussion on the topics).
+
+This repo is the actual webapp, written in python that sits up at openhours.io
+and manages the data. Its a super simple Pyramid / SQL Alchemy app designed to
+be hosted and deployed on Heroku. It also uses GitHub to auth maintainers.
+
+Feel free to PR or ticket your bugs, fixes and other funky things. Its super
+hastily put together but isn't doing anything too amazing so should be stable
+enough for our purposes.
 
 ## Resources
 
